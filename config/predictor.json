@@ -1,0 +1,12 @@
+{
+    "defaults": {
+        "goalChancePerMinute": 0.015,
+        "teamRatingDifferential": 3,
+        "refreshIntervalMilliseconds": {
+            "slow": 3000,
+            "medium": 1000,
+            "fast": 100,
+            "supersonic": 1
+        }
+    }
+}

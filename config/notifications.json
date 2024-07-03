@@ -1,0 +1,9 @@
+{
+    "matchUpdateTtlSeconds": 86400,
+    "sendDelaysMilliseconds": {
+        "slow": 360000,
+        "medium": 240000,
+        "fast": 120000,
+        "asap": 0
+    }
+}

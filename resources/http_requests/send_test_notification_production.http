@@ -1,0 +1,4 @@
+POST https://football-scores-api.fly.dev/api/v1/debug/notifications/test/user/D1B468E9-AC32-42C1-BB83-B7B60D3DA094 HTTP/1.1
+content-type: application/json
+
+{}

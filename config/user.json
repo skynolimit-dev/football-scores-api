@@ -1,0 +1,19 @@
+{
+    "preferences": {
+        "competitions": {
+            "default": [
+                "Champions League: Top teams",
+                "Community Shield",
+                "EFL Cup: Top teams",
+                "EURO",
+                "Europa Conference League: Top teams",
+                "Europa League: Top teams",
+                "FA Cup: Top teams",
+                "FIFA Club World Cup",
+                "Premier League",
+                "World Cup",
+                "World Cup Qualification UEFA"
+            ]
+        }
+    }
+}

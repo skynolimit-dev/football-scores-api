@@ -1,0 +1,26 @@
+{
+    "weights": {
+        "UEFA Champions League": 100,
+        "English Premier League": 90,
+        "UEFA Europa League": 80,
+        "UEFA Europa Conference League": 70,
+        "English FA Cup": 60,
+        "UEFA European Championship Finals": 50
+    },
+    "international": [
+        "Championship Qualifiers",
+        "Copa America",
+        "Internationals",
+        "National Team",
+        "Olympic",
+        "UEFA Euro 2",
+        "UEFA Under 17 Championship",
+        "World Cup"
+    ],
+    "offerTopTeams": [
+        "UEFA Champions League",
+        "UEFA Europa League",
+        "UEFA Europa Conference League",
+        "English FA Cup"
+    ]
+}

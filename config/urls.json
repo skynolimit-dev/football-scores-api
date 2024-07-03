@@ -1,0 +1,19 @@
+{
+    "topFlightTeamsTables": "https://www.bbc.co.uk/sport/football/tables",
+    "ratings": {
+      "club": {
+        "data": "http://api.clubelo.com/{YYYY-MM-DD}"
+      },
+      "national": {
+        "data": "https://eloratings.net/World.tsv",
+        "teamNames": "https://eloratings.net/en.teams.tsv"
+      }
+    },
+    "leaguesApi": "https://www.fotmob.com/api/allLeagues",
+    "matchesApi": "https://www.fotmob.com/api/matches?date={YYYYMMDD}",
+    "matchDetailsApi": "https://www.fotmob.com/api/matchDetails?matchId={MATCHID}",
+    "scoresAndFixtures_TODO_REMOVE": "https://www.bbc.co.uk/sport/football/scores-fixtures",
+    "matchReportLinkPrefix_TODO_REMOVE": "https://www.bbc.co.uk",
+    "matchReportNoLink_TODO_REMOVE": "https://www.bbc.co.uk/sport/football/",
+    "matchesOnTv": "https://www.live-footballontv.com/"
+  }

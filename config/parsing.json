@@ -1,0 +1,14 @@
+{
+    "max_parallel_requests": 10,
+    "days": {
+        "past": 30,
+        "future": 30
+    },
+    "refresh_intervals_milliseconds": {
+        "past": 7200000,
+        "today": 300000,
+        "inPlay": 10000,
+        "future": 7200000,
+        "matchesOnTv": 3600000
+    }
+}

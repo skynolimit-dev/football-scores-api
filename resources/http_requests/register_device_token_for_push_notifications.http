@@ -1,0 +1,22 @@
+POST http://localhost:3005/api/v1/user/notifications/register HTTP/1.1
+content-type: application/json
+
+{
+    "deviceId": "a2b23b07-e86d-49eb-b3e0-45ec3dcd5331",
+    "deviceToken": "B78A137F56B90A18F7DF3FFB6E7D9C06209ABFF7864ED854776CC2F7AEDC2B77",
+    "config": {
+        "timezone": "Europe/London",
+        "notifications": {
+            "preferences": {
+                "scoreUpdates": {
+                    "enabled": true,
+                    "delayInMinutes": "3"
+                },
+                "matchesOnTv": {
+                    "enabled": true,
+                    "time": "17:00"
+                }
+            }
+        }
+    }
+}

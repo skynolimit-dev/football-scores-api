@@ -1,0 +1,4 @@
+DELETE http://localhost:3005/api/v1/user/ABC123 HTTP/1.1
+content-type: application/json
+
+{}
