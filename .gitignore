@@ -26,3 +26,6 @@
 
 # Firebase
 assets/firestore/*.json
+
+# Keys
+AuthKey*
