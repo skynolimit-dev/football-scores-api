@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "./dev.sh",
+    "devsim": "export USE_MATCH_API_SIMULATOR=true ; ./dev.sh",
     "start": "unset FIRESTORE_EMULATOR_HOST ; node server.js",
     "inspect": "node --inspect server.js",
     "deploy": "fly deploy --ha=false && fly logs",

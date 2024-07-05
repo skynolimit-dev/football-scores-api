@@ -10,7 +10,6 @@ const teams = require('./lib/teams');
 const matches = require('./lib/matches');
 const matchesOnTv = require('./lib/matchesOnTv');
 const news = require('./lib/news');
-const predictor = require('./lib/predictor');
 const apis = require('./lib/apis');
 const db = require('./lib/db');
 const user = require('./lib/users');
@@ -58,7 +57,7 @@ async function main() {
   await setGlobals();
 
   // Serve up those tasty APIs (note we may not necessarily have any match data yet, but hey)
-  apis.serve(globals, matches, news, app, predictor);
+  apis.serve(globals, matches, news, app);
 
   // Set the match data
   await matches.setMatchData(globals);
