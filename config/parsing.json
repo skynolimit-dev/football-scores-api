@@ -1,8 +1,8 @@
 {
     "max_parallel_requests": 10,
     "days": {
-        "past": 30,
-        "future": 30
+        "past": 80,
+        "future": 80
     },
     "refresh_intervals_milliseconds": {
         "past": 7200000,
