@@ -1,5 +1,5 @@
 {
-    "max_parallel_requests": 10,
+    "max_parallel_requests": 15,
     "days": {
         "past": 80,
         "future": 80
