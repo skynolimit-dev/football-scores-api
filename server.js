@@ -32,6 +32,8 @@ async function setGlobals() {
       news.setNews(globals)
     ]);
 
+  matches.setMatchesOfInterestForUser(globals, 'default');
+
   } catch (error) {
     console.error('Error setting globals:', error);
   }
@@ -61,6 +63,9 @@ async function main() {
 
   // Set the match data
   await matches.setMatchData(globals);
+
+  // Set the matches of interest for the default user (used by the widget)
+  await matches.setMatchesOfInterestForUser(globals, 'default');
 
   // Set the user preferences watcher
   // This updates the matches of interest for the user if they update their preferences
