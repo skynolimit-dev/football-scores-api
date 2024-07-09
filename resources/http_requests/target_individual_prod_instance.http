@@ -1,0 +1,5 @@
+GET https://football-scores-api.fly.dev/api/v1/user/7A596142-40E2-4D90-99CB-CF07B247ECEE HTTP/1.1
+content-type: application/json
+fly-force-instance-id: 48e2956a231668
+
+{}
