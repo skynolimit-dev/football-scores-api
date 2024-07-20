@@ -4,7 +4,7 @@
     "devsim": "export USE_MATCH_API_SIMULATOR=true ; ./dev.sh",
     "start": "unset FIRESTORE_EMULATOR_HOST ; node server.js",
     "inspect": "node --inspect server.js",
-    "deploy": "fly deploy --ha=false && fly logs",
+    "deploy": "fly deploy && fly logs",
     "stop": "lsof -t -i:8080 -i:9000 -i:9099 -i:9199 -i:9090 | xargs kill -9"
   },
   "dependencies": {
