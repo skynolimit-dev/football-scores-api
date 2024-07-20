@@ -13,5 +13,8 @@
     "matchesApi": "https://www.fotmob.com/api/matches?date={YYYYMMDD}",
     "matchesApiSimulator": "http://localhost:3006/api/v1/matches/?date={YYYYMMDD}", 
     "matchDetailsApi": "https://www.fotmob.com/api/matchDetails?matchId={MATCHID}",
-    "matchesOnTv": "https://www.live-footballontv.com/"
+    "matchesOnTv": "https://www.live-footballontv.com/",
+    "widget": {
+      "sourceUri": "https://raw.githubusercontent.com/mwagstaff/scriptable/main/top-scores/TopScores_{CATEGORY}.js"
+    }
   }
